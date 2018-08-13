@@ -1,0 +1,48 @@
+---
+---
+
+@import "minima";
+
+.pull-left {
+	float: left !important;
+}
+.pull-right {
+	float: right !important;
+}
+
+.clearfix {
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.social-media-list {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+
+    & > li {
+    	display: inline-block;
+    	padding-right: 5px;
+    	padding-left: 5px;
+	}
+
+	a {
+		svg:hover {
+			fill: #2a7ae2;	
+		}
+	}
+}

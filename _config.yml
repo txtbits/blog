@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 paginate: 2
-paginate_path: "/page/:num/"
+paginate_path: "/pagina/:num/"
 show_excerpts: true
 
 disqus:

@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Soy Christian Forcada Vitalla (txtbits) y en este blog pretendo compartir mis conocimientos en desarrollo de software y cualquier otro interés.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://txtbits.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:day/:title.html
 twitter_username: txtbits
 github_username: txtbits
 linkedin_username: christianforcadavitalla
@@ -30,7 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-paginate: 2
+paginate: 4
 paginate_path: "/pagina/:num/"
 show_excerpts: true
 

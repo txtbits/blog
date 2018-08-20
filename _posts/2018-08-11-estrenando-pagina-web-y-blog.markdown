@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Estrenando página web y blog"
-date:   2018-08-11 11:18:30 +0200
+title: "Estrenando página web y blog"
+date: 2018-08-11 11:18:30 +0200
+categories: [Blog, Portfolio, Web]
 ---
 
 Llevaba un tiempo pensando en que necesitaba una actualización de mi imagen online y que mejor momento que el verano para llevar a cabo proyectos encubados a lo largo del año.
